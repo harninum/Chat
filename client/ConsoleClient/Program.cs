@@ -11,10 +11,8 @@ namespace ConsoleClient
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Введите username:");
-            //string str1 = Console.ReadLine();
             message msg = new message();
-            msg.username = "Sasha suhoy";
+            msg.username = "Test name";
             msg.text = "Love C#";
             string json = JsonSerializer.Serialize(msg);
 
